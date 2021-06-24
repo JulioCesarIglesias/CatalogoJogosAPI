@@ -18,6 +18,6 @@ namespace CatalogoJogosAPI.Model.InputModel
 
         [Required]
         [Range(1, 1000, ErrorMessage = "O preço deve ser de no mínimo 1 real e no máximo 1000 reais")]
-        public string Preco { get; set; }
+        public double Preco { get; set; }
     }
 }
