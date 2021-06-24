@@ -13,6 +13,6 @@ namespace CatalogoJogosAPI.Repositories
         Task<List<Jogo>> Obter(string nome, string produtora);
         Task Inserir(Jogo jogo);
         Task Atualizar(Jogo jogo);
-        Task Remover(Jogo jogo);
+        Task Remover(Guid id);
     }
 }
