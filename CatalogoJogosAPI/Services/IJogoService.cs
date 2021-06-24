@@ -1,13 +1,12 @@
-﻿using CatalogoJogosAPI.InputModel;
-using CatalogoJogosAPI.ViewModel;
+﻿using CatalogoJogosAPI.Model.InputModel;
+using CatalogoJogosAPI.Model.ViewModel;
 using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 
 namespace CatalogoJogosAPI.Services
 {
-    public interface IJogoService
+    public interface IJogoService : IDisposable
     {
         Task<List<JogoViewModel>> Obter(int pagina, int quantidade);
         Task<JogoViewModel> Obter(Guid id);
