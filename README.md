@@ -1,2 +1,2 @@
 # CatalogoJogosAPI
-API de Catalogo de JogosAPI
+API de Catalogo de Jogos
