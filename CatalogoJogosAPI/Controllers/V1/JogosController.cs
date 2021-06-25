@@ -46,7 +46,7 @@ namespace CatalogoJogosAPI.Controllers.V1
                 return NoContent();
             }
 
-            return Ok();
+            return Ok(jogo);
         }
 
         [HttpPost]
